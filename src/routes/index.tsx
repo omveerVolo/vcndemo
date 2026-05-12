@@ -128,7 +128,7 @@ function Hero() {
         </div>
       }
     >
-      <div className="text-white w-full max-w-4xl mx-auto px-4 flex flex-col items-center">
+      <div className="text-white w-full max-w-4xl mx-auto px-4 flex flex-col items-center pt-16">
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -165,7 +165,7 @@ function Hero() {
           <img
             src="/ipad.png"
             alt="Payvider platform on iPad"
-            className="w-full max-w-lg mx-auto scale-[0.68] -translate-y-[60px]"
+            className="w-full max-w-lg mx-auto scale-[0.68] -translate-y-[10px]"
           />
         </motion.div>
       </div>
